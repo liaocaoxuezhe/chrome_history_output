@@ -1,0 +1,32 @@
+{
+  "browsers": {
+    "Chrome": [
+      "/Users/你的用户名/Library/Application Support/Google/Chrome/Default/History"
+    ],
+    "Edge": [],
+    "Safari": [
+      "/Users/你的用户名/Library/Safari/History.db"
+    ],
+    "Arc": [],
+    "Firefox": [],
+    "Brave": [],
+    "Dia": [],
+    "Atlas": [],
+    "Comet": [],
+    "Tabbit": [],
+    "Zen": [],
+    "SigmaOS": []
+  },
+  "custom_paths": [],
+  "api": {
+    "api_key": "",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "model_name": "gemini-2.0-flash"
+  },
+  "output": {
+    "relative_day": -1,
+    "timezone_offset": 8,
+    "max_records": 800
+  },
+  "prompt": ""
+}

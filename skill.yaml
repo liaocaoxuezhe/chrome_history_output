@@ -1,0 +1,63 @@
+name: browser-history
+version: 1.0.0
+description: >
+  浏览记录导出与 AI 日报生成工具。支持从 Chrome、Edge、Safari、Arc、Firefox、Brave、Vivaldi、Opera、Dia、Atlas、Comet、Tabbit、Zen、SigmaOS 等浏览器提取历史记录，
+  并调用任意 OpenAI 兼容 API 生成结构化的 Markdown 分析报告。
+author: liaocaoxuezhe
+homepage: https://github.com/liaocaoxuezhe/browser-history-daily-report
+repository: https://github.com/liaocaoxuezhe/browser-history-daily-report
+documentation: https://github.com/liaocaoxuezhe/browser-history-daily-report#readme
+license: MIT
+
+tags:
+  - browser
+  - history
+  - chrome
+  - safari
+  - arc
+  - ai
+  - gemini
+  - qwen
+  - daily-report
+  - productivity
+  - macos
+  - windows
+  - linux
+
+platforms:
+  - darwin
+  - win32
+  - linux
+
+install:
+  macos: |
+    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.sh | bash
+  linux: |
+    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.sh | bash
+  windows: |
+    irm https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.ps1 | iex
+
+cli:
+  name: browser-history
+  command: python3 scripts/browser_history.py
+  subcommands:
+    - name: yesterday
+      description: 分析昨天的浏览记录
+      command: python3 scripts/browser_history.py
+    - name: today
+      description: 分析今天的浏览记录
+      command: python3 scripts/browser_history.py --today
+    - name: date
+      description: 分析指定日期的浏览记录
+      command: python3 scripts/browser_history.py --date <YYYY-MM-DD>
+    - name: detect
+      description: 检测浏览器路径
+      command: python3 scripts/detect_browser_paths.py
+    - name: init
+      description: 初始化配置文件
+      command: python3 scripts/detect_browser_paths.py --init
+
+skills:
+  claude: SKILL.md
+  codex: SKILL.md
+  cursor: SKILL.md
