@@ -4,9 +4,9 @@ description: >
   浏览记录导出与 AI 日报生成工具。支持从 Chrome、Edge、Safari、Arc、Firefox、Brave、Vivaldi、Opera、Dia、Atlas、Comet、Tabbit、Zen、SigmaOS 等浏览器提取历史记录，
   并调用任意 OpenAI 兼容 API 生成结构化的 Markdown 分析报告。
 author: liaocaoxuezhe
-homepage: https://github.com/liaocaoxuezhe/browser-history-daily-report
-repository: https://github.com/liaocaoxuezhe/browser-history-daily-report
-documentation: https://github.com/liaocaoxuezhe/browser-history-daily-report#readme
+homepage: https://github.com/liaocaoxuezhe/chrome_history_output
+repository: https://github.com/liaocaoxuezhe/chrome_history_output
+documentation: https://github.com/liaocaoxuezhe/chrome_history_output#readme
 license: MIT
 
 tags:
@@ -31,11 +31,11 @@ platforms:
 
 install:
   macos: |
-    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/chrome_history_output/main/install.sh | bash
   linux: |
-    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/chrome_history_output/main/install.sh | bash
   windows: |
-    irm https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.ps1 | iex
+    irm https://raw.githubusercontent.com/liaocaoxuezhe/chrome_history_output/main/install.ps1 | iex
 
 cli:
   name: browser-history

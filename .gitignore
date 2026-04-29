@@ -1,9 +1,20 @@
+# 本文件不提交
+.gitignore
+
 # 配置文件（包含敏感信息）
 config.json
+
+# 环境变量
+.env
+.env.*
+!.env.example
 
 # 输出目录
 history_records/
 logs/
+
+# 测试文件
+test/
 
 # 虚拟环境
 venv/
@@ -39,7 +50,12 @@ wheels/
 *.swp
 *.swo
 *~
+
+# macOS
 .DS_Store
+
+# Claude Code
+.claude/
 
 # 日志
 *.log

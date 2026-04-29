@@ -2,7 +2,7 @@
 # 支持 Claude Code / Codex CLI / Cursor 等 AI 编程助手
 # 作者: liaocaoxuezhe
 
-$REPO_URL = "https://github.com/liaocaoxuezhe/browser-history-daily-report.git"
+$REPO_URL = "https://github.com/liaocaoxuezhe/chrome_history_output.git"
 $INSTALL_DIR = "$env:USERPROFILE\.browser-history-daily-report"
 $SKILL_NAME = "browser-history"
 

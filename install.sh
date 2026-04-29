@@ -5,7 +5,7 @@
 
 set -e
 
-REPO_URL="https://github.com/liaocaoxuezhe/browser-history-daily-report.git"
+REPO_URL="https://github.com/liaocaoxuezhe/chrome_history_output.git"
 INSTALL_DIR="${HOME}/.browser-history-daily-report"
 SKILL_NAME="browser-history"
 

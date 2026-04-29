@@ -15,8 +15,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/liaocaoxuezhe/browser-history-daily-report.git
-cd browser-history-daily-report
+git clone https://github.com/liaocaoxuezhe/chrome_history_output.git
+cd chrome_history_output
 ```
 
 ### 2. 安装依赖
@@ -86,12 +86,15 @@ python scripts/browser_history.py --date 2025-03-15
 
 ## 在 AI 编程助手中使用
 
+### Skills.sh 安装
+
+```bash
+npx skills add liaocaoxuezhe/chrome_history_output
+```
+
 ### Claude Code
 
 ```bash
-# 通过 skill 安装
-claude skills add browser-history-daily-report
-
 # 或者直接使用
 claude 帮我分析昨天的浏览记录
 ```
@@ -193,10 +196,10 @@ schtasks /create /tn "BrowserHistoryReport" /tr "python C:\path\to\browser_histo
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/liaocaoxuezhe/chrome_history_output/main/install.sh | bash
 
 # Windows
-irm https://raw.githubusercontent.com/liaocaoxuezhe/browser-history-daily-report/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/liaocaoxuezhe/chrome_history_output/main/install.ps1 | iex
 ```
 
 ## 贡献
